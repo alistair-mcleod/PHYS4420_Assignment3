@@ -1,0 +1,6 @@
+#ignore the venv directory
+venv/
+#ignore .npz files
+*.npz
+#ignore ALL child directories
+**/

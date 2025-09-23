@@ -1,5 +1,5 @@
 #cd to the parent directory of this script
-cd "$(dirname "$0")"/..
+#cd "$(dirname "$0")"/..
 pwd
 sudo apt-get install python3.10
 python3.10 -m venv venv
