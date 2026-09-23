@@ -13,6 +13,10 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	echo "Running on Linux, using apt-get..."
 	sleep 2
 	sudo apt-get install python3.10
+else:
+	echo "Unrecognised OS. Assuming this is WSL."
+	sleep 2
+	sudo apt-get install python3.10
 fi
 
 python3.10 -m venv venv
